@@ -1,75 +1,27 @@
-# ✨ Spark
-
-> Empowering Digital Nomads with Decentralized Identity Verification on TON Blockchain
+# ⚡ Spark
+> A Decentralized Prediction Market Platform on TON Blockchain
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TON](https://img.shields.io/badge/Powered%20by-TON-blue.svg)](https://ton.org)
-[![Follow on Twitter](https://img.shields.io/twitter/follow/sparkidentity?style=social)](https://twitter.com/sparkidentity)
 
-## 🌟 What is Spark?
+## 🎯 Overview
+Spark is a decentralized prediction market platform built on The Open Network (TON), enabling users to create markets, place bets, and earn rewards based on real-world event outcomes.
 
-Spark is a revolutionary decentralized identity platform built on the TON blockchain, designed specifically for digital nomads. It enables secure, private, and verifiable digital identity management while seamlessly integrating with event management and community features.
+## ✨ Key Features
 
-## 🚀 Key Features
+### Market Creation & Trading
+- 📊 Create prediction markets for any future event
+- 💰 Place bets using TON tokens
+- 🎉 Claim winnings automatically through smart contracts
+- 📈 Real-time market analytics and trends
 
-### Core Identity Management
-- 🔐 **Decentralized Identity (DID) Profiles**
-  - Create and manage blockchain-based identity profiles
-  - Full ownership and control of personal data
-  - Immutable verification history
+### Technical Features
+- ⚡ Fast loading with data caching
+- 🔒 Secure smart contract architecture
+- 🌐 Decentralized oracle integration
+- 📱 Mobile-responsive design
 
-- 📜 **Verifiable Credentials**
-  - Issue and store trusted credentials
-  - Employment history verification
-  - Residency proof management
-  - Educational certificates
-
-- 🎭 **Privacy-First Design**
-  - Zero-knowledge proof verification
-  - Selective credential sharing
-  - Encrypted data storage
-
-### Event & Community Features
-- 🎫 **Decentralized Event Management**
-  - Create and manage blockchain-based events
-  - NFT ticketing system
-  - Attendance verification
-  - Real-time analytics
-
-- 🏆 **Rewards & Recognition**
-  - NFT-based attendance certificates
-  - Community achievement badges
-  - Points-based loyalty program
-  - Exclusive member benefits
-
-## 💡 Why Spark?
-
-### For Digital Nomads
-- 🌍 Manage your digital identity across borders
-- 🔒 Own and control your personal data
-- ✅ Easily verify credentials to service providers
-- 🤝 Connect with a global community
-
-### For Event Organizers
-- 📊 Access detailed analytics and insights
-- 🎯 Target verified audience segments
-- 💫 Create engaging community experiences
-- 💰 Reduce operational costs
-
-## 🛠 Technical Architecture
-
-```mermaid
-graph TD
-    A[User] --> B[TON Wallet Integration]
-    B --> C[Identity Management]
-    C --> D[Credential Storage]
-    C --> E[ZKP Verification]
-    B --> F[Event Management]
-    F --> G[NFT Ticketing]
-    F --> H[Analytics Engine]
-```
-
-## 🌈 Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 - TON Wallet
@@ -79,10 +31,10 @@ graph TD
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/tadashijei/Spark---Decentralized-Identity-for-Digital-Nomads
+git clone https://github.com/tadashijei/spark
 
 # Install dependencies
-cd Spark---Decentralized-Identity-for-Digital-Nomads
+cd spark
 yarn install
 
 # Configure environment
@@ -92,60 +44,53 @@ cp .env.example .env
 yarn dev
 ```
 
-## 📱 Mobile Experience
+## 📱 Usage
 
-Spark is built with a mobile-first approach, ensuring seamless experience across devices:
-- Progressive Web App (PWA) support
-- Native-like interactions
-- Offline capability
-- Push notifications
-
-## 🌍 Multilingual Support
-
-Currently supported languages:
-- English
-- Spanish
-- Mandarin
-- Russian
-- Japanese
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### Development Setup
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Connect your TON wallet
+2. Browse available prediction markets
+3. Place bets on outcomes
+4. Monitor your positions
+5. Claim winnings after event resolution
 
 ## 🔮 Roadmap
 
 ### Q2 2024
-- [ ] Launch beta version
-- [ ] Implement core DID features
-- [ ] Release mobile apps
+- [ ] Enhanced UI/UX design
+- [ ] Telegram theme support
+- [ ] NFT badges for active users
 
 ### Q3 2024
-- [ ] Add cross-chain support
-- [ ] Expand verification network
-- [ ] Launch loyalty program
+- [ ] Mobile app release
+- [ ] Advanced analytics dashboard
+- [ ] Multi-language support
 
 ### Q4 2024
-- [ ] Global marketing campaign
-- [ ] Enterprise partnerships
-- [ ] Advanced analytics release
+- [ ] Cross-chain integration
+- [ ] DAO governance implementation
+- [ ] Professional API access
+
+## 🛠 Technical Architecture
+```mermaid
+graph TD
+    A[User] --> B[TON Wallet]
+    B --> C[Smart Contracts]
+    C --> D[Market Creation]
+    C --> E[Bet Placement]
+    C --> F[Settlement]
+    G[Cache Layer] --> H[Frontend]
+    H --> A
+```
+
+## 👥 Contributing
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
-
-- Documentation: [docs.sparkidentity.com](https://docs.sparkidentity.tadashijei.com)
-- Email: support@sparkidentity.tadashijei.com
+- Documentation: [docs.spark.ton](https://docs.spark.ton)
+- Email: support@spark.ton
+- Telegram: [@sparkmarkets](https://t.me/sparkmarkets)
 
 ---
-
-<p align="center">Made with ❤️ by the Spark team</p>
+<p align="center">Built with ⚡ on TON</p>
